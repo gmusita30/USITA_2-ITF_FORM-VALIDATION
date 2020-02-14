@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Event</title>
+    <link rel="stylesheet" href="css/index.css">
+	<script src = "js/index.js"></script>
+</head>
+<div class="container">
+<body>
+    
+<fieldset>
+   <b>Create a New Event</b>
+</fieldset>
+    <form>
+        <fieldset>
+<div class="type">
+        <label id="type" >Event Type:</label>
+                <select id="eventsType" name="events" class="tiit"required>
+                <option value = "Choose">Choose One: </option>
+                <option value="Choose one">Birthday</option>
+                <option value="Choose two">Anniversary</option>
+                <option value="Choose three">Game</option>
+                <option value="Choose four">Charity</option>
+                </select><br><br>
+</div>
+        
+<div class="tit">
+        <label id = "eventTitle" >Event Title: </label>
+        <input type = "text" id = "Eventtitle" name = "title" class="titl" required><br><br>
+</div>
+
+<div class="pideyt">
+        <label id = "dates">Event Dates: </label>
+        <input type = "date" id = "startDate" name = "start" class = "bit"required> to
+        <input type = "date" id = "finishDate" name = "finish" required> <br><br> 
+</div>
+
+<div class="deyt">
+        <label id = "posting">Posting Date: </label>
+        <input type = "date" id = "postDate" name = "post" class = "dit" required> <br><br>
+</div>
+
+<div class="chek">
+        <label><input type="checkbox">Is Registration Required?</label><br><br>
+        <label><input type="checkbox">Is this event associated with any Family Programs?</label><br><br>
+        <label><input type="checkbox">Upon Registration Completion, Are Users to Receive an Auto Generated Email?</label><br><br>
+        <label><input type="checkbox">Is There a Point of Contact?</label><br><br>
+        <label><input type="checkbox">Is There a Hosting Command Point of Contact?</label><br><br>
+        
+        <label id = "Submit"></label><input type = "submit" value = "Save" class="bo1" onclick = "Forms()">
+        <input type = "reset" value = "Cancel" class="bo2"><br><br>
+</div>
+
+    </fieldset>
+    </form>
+</div>
+</body>
+</html>

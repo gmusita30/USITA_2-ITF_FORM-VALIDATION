@@ -1,0 +1,82 @@
+   .container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 2%;
+    border-color: black;
+    padding: -50px;
+
+}
+body{
+    
+    font-family:sans-serif;
+    letter-spacing: 2px;
+}
+
+.tiit{
+    margin-left: 49px;
+    
+}
+.titl{
+    margin-left: 50px;
+    width: 450px;
+}
+
+.bit{
+    margin-left: 41px;
+    
+}
+
+.dit{
+    margin-left: 35px; 
+}
+
+
+.tit{
+    font-weight: bold;
+    font-size: small;
+    margin-left: 50px ;
+}
+
+.type{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 50px ;
+}
+
+.pideyt{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 50px ;
+}
+
+.deyt{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 50px ;
+
+}
+
+.chek{
+    font-weight: bold;
+    font-size: small;
+    margin-left: 50px ;
+}
+
+.bo1{
+    font-family:sans-serif;
+    margin-left: 38%;
+    background-color: lightgray;
+}
+.bo2{
+    font-family:sans-serif;
+    margin-left: 10px;
+    background-color: lightgray;
+}
